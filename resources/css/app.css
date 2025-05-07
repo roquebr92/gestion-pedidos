@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Añade esto al final de resources/css/app.css */
+body { background: #eee; }
+.card { box-shadow: 0 20px 27px rgba(0,0,0,0.05); }
+.avatar.sm { width: 2.25rem; height: 2.25rem; }
+.table-nowrap .table td,
+.table-nowrap .table th { white-space: nowrap; }
+.table > :not(caption) > * > * { padding: .75rem 1.25rem; }
+table th { font-weight: 600; background-color: #eeecfd !important; }
